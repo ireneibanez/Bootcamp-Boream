@@ -1,0 +1,44 @@
+Referencia de elementos HTML
+
+A continuación se muestran algunas de las etiquetas HTML disponibles para desarrollar páginas web.
+
+Etiquetas HTML agrupadas por cetegoría
+
+CATEGORY
+TAG
+VERSIÓN HTML
+HTML 4
+HTML 5
+
+HTML basico
+
+!DOCTYPE
+html
+head
+title
+body
+
+Para formatear texto
+
+acronym
+abbr
+address
+b
+big
+blockquote
+center
+
+Formulario
+
+form
+input
+textarea
+button
+select
+datalist
+output	
+
+❌
+✅
+
+Referencia de todos los Elementos HTML
