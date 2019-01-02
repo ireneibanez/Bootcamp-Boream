@@ -1,0 +1,38 @@
+* {
+  color: #333333;
+  font-family: Arial;
+}
+  
+h1, h2 {
+  color: #4A90E2;
+}
+
+.parrafo{
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  padding: 1rem 0;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.puntitos{
+  border-bottom:1px dotted rgb(0, 0, 0);
+  font-family: monospace;
+  font-size: .85rem;
+}
+
+.acronimo{
+  font-family: monospace;
+  font-size: .85rem;
+}
+
+#ultimo{
+  width: 80vw;
+}
+
+blockquote{
+  color: #666666;
+  font-family: serif;
+  font-size: 1.2rem;
+  font-style: italic;
+}
