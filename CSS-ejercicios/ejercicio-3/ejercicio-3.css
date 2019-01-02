@@ -1,0 +1,55 @@
+
+/*Ejercicio 3 CSS*/
+
+header{
+    border-top:1px black solid;
+    border-bottom: 1px black solid;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: right;
+    background-color: rgba(0, 255, 255, 0.301);
+}
+
+h1, h2 {
+    color:black solid;
+    background-color: rgba(255, 127, 80, 0.493);
+    font-size: 2rem;   
+}
+
+.botones{
+    padding: 0.5rem;
+    font-style: oblique;
+    border: 1px rgb(87, 4, 4) solid;
+    background-color: rgb(87, 4, 4) solid;;
+}
+
+p{
+    text-align: center;
+    font-size-adjust: inherit;
+}
+
+#catalogo{
+    margin-top: 30rem;
+    font-style: italic;
+    font-size: 2rem;
+    color: blueviolet solid;
+}
+
+.imagen{
+    margin: auto;
+    border: 1.5px rgb(105, 9, 9) dotted;
+}
+
+.centrado {
+    text-align: center;
+}
+
+.experiencia-container {
+    width: 70vW;
+    margin: auto;
+}
+
+.bonito{
+    font-style: oblique;
+    background-color: rgb(87, 4, 4) solid;
+}

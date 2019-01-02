@@ -3,23 +3,16 @@
 <head>
     <meta charset="utf-8" />
     <title>Mi Web</title>
-   <style type="text/css">
-    header{
-        border-top:1px black solid;
-        border-bottom: 1px black solid;
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-    }
-    </style>
+    <link rel="stylesheet" type="text/css" href="ejercicio-3.css">
 </head>
 <body>
 
     <h1>Sitio Web</h1>
 
     <header>
-        <a href="index.html">Inicio</a> |
-        <a href="productos.html">Productos</a> |
-        <a href="contacto.html">Contacta con nosotros</a>
+        <a href="index.html" class="botones">Inicio</a> |
+        <a href="productos.html" class="botones"> Productos</a> |
+        <a href="contacto.html" class="botones">Contacta con nosotros</a>
     </header>
  
     <h2>Contacta con nosotros</h2>
@@ -41,41 +34,56 @@
 
     <p>Temporibus expedita quo ducimus odit cupiditate modi, dolores libero.</p>
 
-    <form action="formulario.php" method="POST">
-        <label for="nombre">Nombre</label>
-        <input type="text" id="nombre">
-        <br>
-        <br>
+    <br>
+    <br>
 
-        <label for="apellido">Apellido</label>
-        <input type="text" id="apellido">
-        <br>
-        <br>
+   
+       <form action="formulario.php" method="POST" class="centrado bonito">
+            <div class="centrado">
+                <label for="nombre">Nombre</label>
+                <br>
+                <br>
+                <input type="text" id="nombre">
+                <br>
+                <br>
 
-        <label for="correo">Correo electrónico</label>
-        <input type="email" id="correo">
-        <br>
-        <br>
+                <label for="apellido">Apellido</label>
+                <br>
+                <br>
+                <input type="text" id="apellido">
+                <br>
+                <br>
 
-        <label for="teléfono">Teléfono</label>
-        <input type="number" id="teléfono">
-        <br>
-        <br>
+                <label for="correo">Correo electrónico</label>
+                <br>
+                <br>
+                <input type="email" id="correo">
+                <br>
+                <br>
 
-        <label for="comentario">Deja tu comentario</label>
-        <br>
-        <textarea rows="5" cols="50"></textarea>
+                <label for="teléfono">Teléfono</label>
+                <br>
+                <br>
+                <input type="number" id="teléfono">
+            </div> 
+            <br>
+            <br>
 
-        <br>
-        <br>
+            <label for="comentario">Deja tu comentario</label>
+            <br>
+            <textarea rows="5" cols="50"></textarea>
 
-        <input type="checkbox" id="condiciones">
-        <label for="condiciones">Acepto las condiciones de privacidad</label>
-        
-        <br>
-        <br>
+            <br>
+            <br>
 
-        <button type="submit">Enviar</button>
-    </form>
+            <input type="checkbox" id="condiciones">
+            <label for="condiciones">Acepto las condiciones de privacidad</label>
+            
+            <br>
+            <br>
+
+            <button type="submit" class="botones">Enviar</button>
+        </form>
+    
 </body>
 </html>
