@@ -1,0 +1,17 @@
+Una tarea tiene un nombre y un estado. Lo haría así:
+
+let tarea = {
+    name: 'Nombre de la tarea',
+    estado: 'Terminado'
+};
+
+Haría un array de tareas para guardar las tareas.
+
+let tareas = [];
+
+Con un prompt mostraría las opciones al usuario y así leería el número de la operación que quiere hacer.
+
+Cada operación lo haría en una función. La función para pintar la lista tiene que usar console.log y el array de las tareas se recorre con un bucle for.
+
+
+
