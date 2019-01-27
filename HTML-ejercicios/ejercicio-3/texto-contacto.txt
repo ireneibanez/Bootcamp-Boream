@@ -1,0 +1,22 @@
+Sitio Web
+
+Inicio | Productos | Contacta con nosotros
+
+Contacta con nosotros
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit:
+
+Sitio Web
+Calle Atocha 25
+28012 Madrid
+micuenta@dominio.com
+
+Temporibus expedita quo ducimus odit cupiditate modi, dolores libero.
+
+Nombre
+Apellido
+Correo electrónico
+Teléfono
+Deja tu comentario
+Acepto las condiciones de privacidad
+Enviar

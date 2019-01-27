@@ -1,0 +1,23 @@
+Aprende sobre el desarrollo Web
+
+El lenguaje HTML es un lenguaje muy sencillo compuesto por elementos que dan un sentido semántico al contenido.
+
+En todos nustros ejercicios aplicamos una declaración del tipo de documento HTML 4 HTML 5.
+Además recordamos que siempre tenemos a disposición recursos on line si lo necesitamos.
+
+Qué aprenderás
+
+Con este ejercicio aprenderás a:
+
+Definir un DTD.
+Comprender la diferencia entre etiqueta de bloque y en linea.
+Definir encabezados estructurados correctamente.
+Marcar elementos de texto según su finalidad.
+Crear un enlace.
+Crear una tabla compleja.
+
+El padre del World Wide Web
+
+En noviembre de 1989, el cientifico Tim Barners-Lee estableció la primera comunicación entre un cliente y un servidor usando el protocolo HTTP. Muchas son sus frases celebres, una de las más conocidas es:
+
+No podemos culpar a la tecnología cuando cometemos errores.

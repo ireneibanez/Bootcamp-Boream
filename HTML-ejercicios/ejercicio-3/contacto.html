@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Mi Web</title>
+   <style type="text/css">
+    header{
+        border-top:1px black solid;
+        border-bottom: 1px black solid;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    </style>
+</head>
+<body>
+
+    <h1>Sitio Web</h1>
+
+    <header>
+        <a href="index.html">Inicio</a> |
+        <a href="productos.html">Productos</a> |
+        <a href="contacto.html">Contacta con nosotros</a>
+    </header>
+ 
+    <h2>Contacta con nosotros</h2>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit:
+    </p>
+
+    <p>
+        <i><b>Sitio Web</b>
+        <br>
+        Calle Atocha 25
+        <br>
+        28012 Madrid
+        <br>
+        <a href="email">micuenta@dominio.com</a> 
+        </i>
+    </p>
+
+    <p>Temporibus expedita quo ducimus odit cupiditate modi, dolores libero.</p>
+
+    <form action="formulario.php" method="POST">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre">
+        <br>
+        <br>
+
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido">
+        <br>
+        <br>
+
+        <label for="correo">Correo electrónico</label>
+        <input type="email" id="correo">
+        <br>
+        <br>
+
+        <label for="teléfono">Teléfono</label>
+        <input type="number" id="teléfono">
+        <br>
+        <br>
+
+        <label for="comentario">Deja tu comentario</label>
+        <br>
+        <textarea rows="5" cols="50"></textarea>
+
+        <br>
+        <br>
+
+        <input type="checkbox" id="condiciones">
+        <label for="condiciones">Acepto las condiciones de privacidad</label>
+        
+        <br>
+        <br>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

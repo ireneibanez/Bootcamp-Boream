@@ -1,0 +1,65 @@
+# Notas hundir la flota
+
+## Planteamiento tablero. 
+
+El tablero sería un array de arrays. 
+
+let tablero = Array(8).fill(Array(8).fill('~'));
+
+Tenemos por un lado una función que nos da un número aleatorio. Lo usaremos para sacar posiciones.
+
+function getRandomNumber() {
+    return Math.floor(Math.random() * 8);
+}
+
+Otra función para sacar la dirección aleatoria
+
+function getRandomDireccion() {
+    return Math.floor(Math.random() *2 );
+}
+
+Luego hacemos una función para iniciar el tablero.
+
+function initTablero(tablero) {
+
+    let longitudBarcos = [2, 2, 2, 3, 3, 4];
+
+    for(let i= 0; i < longitudBarcos.length; i++) {
+
+        ponerBarco(tablero, longitudBarcos[i]);
+
+    }
+}
+
+
+function ponerBarco(tablero, longitud) {
+
+    let isShipSet = false;
+
+    while (!isShipSet) {
+
+        let x = getRandomNumber();
+        let y = getRandomNumber();
+
+        if (tablero[x][y] !== '~') {
+            continue;
+        }
+
+        //Sabemos que en la posicion tablero[x][y] hay agua, por lo tanto, está libre
+
+        //Sacamos la dirección antes de ver si el barco cabe
+
+        let direccion = getRandomDireccion();
+
+        if (direccion == 1) {
+
+            //Si direccion es igual a 1 el barco lo colocamos horizontalmente
+            for (let i=0; i <= i; i++) {
+
+            }
+        }
+        else {
+
+        }
+    }
+}
